@@ -145,8 +145,8 @@ writeImzML <- function(object, name, folder = getwd(),
 		</softwareList>
 		<scanSettingsList count="1">
 			<scanSettings id="scansettings1">
-				<cvParam cvRef="IMS" accession="IMS:1000042" name="max count of pixel x" value="%d"/>
-				<cvParam cvRef="IMS" accession="IMS:1000043" name="max count of pixel y" value="%d"/>
+				<cvParam cvRef="IMS" accession="IMS:1000042" name="max count of pixels x" value="%d"/>
+				<cvParam cvRef="IMS" accession="IMS:1000043" name="max count of pixels y" value="%d"/>
 				<cvParam cvRef="IMS" accession="IMS:1000044" name="max dimension x" value="%d"/>
 				<cvParam cvRef="IMS" accession="IMS:1000045" name="max dimension y" value="%d"/>
 				<cvParam cvRef="IMS" accession="IMS:1000046" name="pixel size x" value="%f"/>
