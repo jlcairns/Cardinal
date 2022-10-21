@@ -190,8 +190,8 @@ writeImzML <- function(object, name, folder = getwd(),
 		</run>
 	</mzML>'
 	sprintf(mzml, version,
-		"max count of pixel x" = as.integer(length(unique(scans(x)[["position x"]]))),
-		"max count of pixel y" = as.integer(length(unique(scans(x)[["position y"]]))),
+		"max count of pixels x" = as.integer(length(unique(scans(x)[["position x"]]))),
+		"max count of pixels y" = as.integer(length(unique(scans(x)[["position y"]]))),
 		"max dimension x" = as.integer(max(scans(x)[["position x"]])),
 		"max dimension y" = as.integer(max(scans(x)[["position y"]])),
 		"pixel size x" = min(diff(sort(unique(scans(x)[["position x"]])))),
